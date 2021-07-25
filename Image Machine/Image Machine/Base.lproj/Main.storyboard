@@ -428,10 +428,10 @@
             </objects>
             <point key="canvasLocation" x="1553.6231884057972" y="1689.5089285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Scanner View Controller-->
         <scene sceneID="ySD-zo-jfm">
             <objects>
-                <viewController id="LU0-QK-4v3" sceneMemberID="viewController">
+                <viewController id="LU0-QK-4v3" customClass="ScannerViewController" customModule="Image_Machine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zph-rG-aCI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -439,6 +439,9 @@
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="mjE-Ld-rkQ"/>
+                    <connections>
+                        <segue destination="7zT-3k-6un" kind="show" identifier="goDetail" id="ltM-Cd-rdx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1VH-gR-RFQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -464,7 +467,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9vl-mB-euw"/>
+        <segue reference="ltM-Cd-rdx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.up.arrow.down.square" catalog="system" width="128" height="114"/>

@@ -12,7 +12,6 @@ class MachinesViewController: UIViewController {
 	
 	let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 	
-	
 	@IBOutlet weak var machine_tbl: UITableView!
 	@IBOutlet weak var sort: UIButton!
 	
@@ -27,7 +26,6 @@ class MachinesViewController: UIViewController {
 		
 		machine_tbl.delegate = self
 		machine_tbl.dataSource = self
-		
 		fetchMachines()
 		
 	}
@@ -75,7 +73,6 @@ class MachinesViewController: UIViewController {
 	}
 	
 	@IBAction func addNew(_ sender: Any) {
-		//		performSegue(withIdentifier: "addNew", sender: self)
 	}
 	
 	

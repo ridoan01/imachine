@@ -62,5 +62,7 @@
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Please Allow Photo Library Access.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Please Allow to Scan QR Code.</string>
 </dict>
 </plist>

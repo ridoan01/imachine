@@ -59,7 +59,7 @@ class MachineDetailViewController: UIViewController {
 		}else{
 			toggle_edit.isEnabled = false
 			toggle_edit.tintColor = #colorLiteral(red: 0.9685460925, green: 0.9686815143, blue: 0.9685031772, alpha: 1)
-			new()
+			tf_id.text = passedValue
 			setEditable(edt: true)
 		}
 	}
@@ -150,11 +150,6 @@ class MachineDetailViewController: UIViewController {
 		tf_type.text = mData[0].type
 		tf_qrcode.text = String(mData[0].qrcode)
 		tf_maintain.text = dateFormater(d: mData[0].maintance_date)
-	}
-	
-	func new(){
-		tf_id.text = passedValue
-		
 	}
 	
 	private func getData(){
@@ -264,11 +259,7 @@ class MachineDetailViewController: UIViewController {
 			print(error.localizedDescription)
 		}
 	}
-
-	
-	
 }
-
 
 
 extension MachineDetailViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate{
@@ -291,7 +282,6 @@ extension MachineDetailViewController : UIImagePickerControllerDelegate, UINavig
 		picker.dismiss(animated: true, completion: nil)
 	}
 }
-
 
 
 extension MachineDetailViewController : UICollectionViewDelegate,UICollectionViewDataSource{
@@ -332,26 +322,6 @@ class CollectionImage: UICollectionViewCell {
 	
 }
 
-
-
-extension UIImageView {
-	func load(urlString : String) {
-		guard let url = URL(string: urlString)else {
-			return
-		}
-		DispatchQueue.global().async { [weak self] in
-			if let data = try? Data(contentsOf: url) {
-				if let image = UIImage(data: data) {
-					DispatchQueue.main.async {
-						self?.image = image
-					}
-				}
-			}
-		}
-	}
-	
-
-}
 
 
 

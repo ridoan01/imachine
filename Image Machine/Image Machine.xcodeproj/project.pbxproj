@@ -15,6 +15,7 @@
 		D067990A26AD3F7400D96ADE /* ImagesEntity+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D067990626AD3F7400D96ADE /* ImagesEntity+CoreDataClass copy.swift */; };
 		D067990B26AD3F7400D96ADE /* MachineEntity+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D067990726AD3F7400D96ADE /* MachineEntity+CoreDataClass copy.swift */; };
 		D067990C26AD3F7400D96ADE /* ImagesEntity+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D067990826AD3F7400D96ADE /* ImagesEntity+CoreDataProperties copy.swift */; };
+		D06BB7F826AD50AD00F618D8 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BB7F726AD50AD00F618D8 /* ScannerViewController.swift */; };
 		D09726E526ABF1DD0024AF93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09726E426ABF1DD0024AF93 /* AppDelegate.swift */; };
 		D09726E726ABF1DD0024AF93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09726E626ABF1DD0024AF93 /* SceneDelegate.swift */; };
 		D09726E926ABF1DD0024AF93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09726E826ABF1DD0024AF93 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 		D067990626AD3F7400D96ADE /* ImagesEntity+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImagesEntity+CoreDataClass copy.swift"; sourceTree = "<group>"; };
 		D067990726AD3F7400D96ADE /* MachineEntity+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MachineEntity+CoreDataClass copy.swift"; sourceTree = "<group>"; };
 		D067990826AD3F7400D96ADE /* ImagesEntity+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImagesEntity+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
+		D06BB7F726AD50AD00F618D8 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		D09726E126ABF1DD0024AF93 /* Image Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09726E426ABF1DD0024AF93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D09726E626ABF1DD0024AF93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				D0BC2B9A26AC84F200E935D1 /* MachinesViewController.swift */,
 				D0BC2B9E26AC859700E935D1 /* MachineDetailViewController.swift */,
 				D06798FB26AD073400D96ADE /* ImageShowViewController.swift */,
+				D06BB7F726AD50AD00F618D8 /* ScannerViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				D09726E526ABF1DD0024AF93 /* AppDelegate.swift in Sources */,
 				D097271B26ABF7470024AF93 /* MachineCD.xcdatamodeld in Sources */,
 				D09726E726ABF1DD0024AF93 /* SceneDelegate.swift in Sources */,
+				D06BB7F826AD50AD00F618D8 /* ScannerViewController.swift in Sources */,
 				D067990926AD3F7400D96ADE /* MachineEntity+CoreDataProperties copy.swift in Sources */,
 				D067990B26AD3F7400D96ADE /* MachineEntity+CoreDataClass copy.swift in Sources */,
 				D067990C26AD3F7400D96ADE /* ImagesEntity+CoreDataProperties copy.swift in Sources */,
