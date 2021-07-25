@@ -1,0 +1,16 @@
+PODS:
+  - DatePickerDialog (4.0)
+
+DEPENDENCIES:
+  - DatePickerDialog
+
+SPEC REPOS:
+  trunk:
+    - DatePickerDialog
+
+SPEC CHECKSUMS:
+  DatePickerDialog: ccff2f91ff7a018057a4d72fa5ad6de49c8cb0cd
+
+PODFILE CHECKSUM: 433614aeeb58d10ce2af6e6b71aca13048dba651
+
+COCOAPODS: 1.10.1
