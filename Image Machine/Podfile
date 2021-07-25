@@ -7,8 +7,6 @@ target 'Image Machine' do
 
   # Pods for Image Machine
 
-	pod 'DatePickerDialog'
-
 
   target 'Image MachineTests' do
     inherit! :search_paths
