@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1D66315F35B6EF417E5CB30B /* Pods_Image_Machine_Image_MachineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DA474D312EFB48F81C03C0 /* Pods_Image_Machine_Image_MachineUITests.framework */; };
-		416744273D41CD794AE836C3 /* Pods_Image_Machine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AA91D0827EDDBB0B78ED29 /* Pods_Image_Machine.framework */; };
 		6256A8500D4787FE53BF53FA /* Pods_Image_MachineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1640F2284221209DA065A1B7 /* Pods_Image_MachineTests.framework */; };
 		D06798FC26AD073400D96ADE /* ImageShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06798FB26AD073400D96ADE /* ImageShowViewController.swift */; };
 		D067990926AD3F7400D96ADE /* MachineEntity+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D067990526AD3F7400D96ADE /* MachineEntity+CoreDataProperties copy.swift */; };
@@ -86,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416744273D41CD794AE836C3 /* Pods_Image_Machine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
